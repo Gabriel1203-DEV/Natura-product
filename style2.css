@@ -1,4 +1,33 @@
-.general{
-display: flex;
+body{
+    margin: 0;
 }
 
+.general{
+display: flex;
+font-size: 20px;
+padding: 30px;
+flex: 1;
+background: url(https://images.pexels.com/photos/301972/pexels-photo-301972.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.general h4{
+    flex: 1;
+}
+
+.Panel ul a{
+    list-style: none;
+    text-decoration: none;
+    list-style-type: none;
+    color: aliceblue;
+}
+.Panel ul{
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+} 
+
+.Panel li{
+    margin-right: 30px;
+}
